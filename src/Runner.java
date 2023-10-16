@@ -13,6 +13,7 @@ class Runner {
     }
 
     private static long getTimestamp(long targetId){
+        //New comment
         SequenceGeneratorService sequenceGeneratorService = new SequenceGeneratorService(9);
         long result = sequenceGeneratorService.nextId();
         return result;
