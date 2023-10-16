@@ -50,6 +50,7 @@ class SequenceGeneratorService {
     }
 
     private long generateId(long currentTimestamp) {
+        //abc
         if(currentTimestamp < lastTimestamp) {
             throw new IllegalStateException("Invalid System Clock!");
         }
