@@ -7,7 +7,7 @@ class Runner {
         //
         long targetId = 8313811347991371218L;
         long timeStamp = getTimestamp(targetId);
-        //Added by 
+        //Added by aaa
         System.out.println("Timestamp: "+timeStamp);
         System.out.println("Diff: "+(targetId-timeStamp));
     }
