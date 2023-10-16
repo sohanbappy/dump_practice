@@ -4,9 +4,10 @@ class Runner {
 
 
     public static void main(String[] args) {
+        //
         long targetId = 8313811347991371218L;
         long timeStamp = getTimestamp(targetId);
-        //Added by BAPPY
+        //Added by 
         System.out.println("Timestamp: "+timeStamp);
         System.out.println("Diff: "+(targetId-timeStamp));
     }
